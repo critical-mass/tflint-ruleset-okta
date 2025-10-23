@@ -17,6 +17,7 @@ func main() {
 				rules.NewOktaAppOauthOmitSecretRule(),
 				rules.NewOktaAppOauthPlaintextRedirectURIRule(),
 				rules.NewOktaAppImplicitAuthenticationPolicyRule(),
+				rules.NewOktaGroupNamePrefixRule() 
 			},
 		},
 	})
