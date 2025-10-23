@@ -4,7 +4,7 @@ import (
 	"github.com/terraform-linters/tflint-plugin-sdk/plugin"
 	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
 
-	"github.com/fionn/tflint-ruleset-okta/rules"
+	"github.com/critical-mass/tflint-ruleset-okta/rules"
 )
 
 func main() {
